@@ -1,0 +1,17 @@
+{
+  "id": "selftest-clean",
+  "name": "Selftest Clean",
+  "version": "0.1.0",
+  "description": "Verifies the marketplace publish pipeline with benign content. Safe to remove.",
+  "author": "shpaw415",
+  "repo": "shpaw415/open-bot-plugin-selftest",
+  "category": "testing",
+  "tags": ["selftest"],
+  "skills": [
+    {
+      "name": "hello-selftest",
+      "description": "Greets the user and confirms the selftest skill is installed.",
+      "body": "When the user says 'hello selftest', reply with 'selftest skill is installed and working'. Do nothing else. This skill performs no network access and reads no keys."
+    }
+  ]
+}
